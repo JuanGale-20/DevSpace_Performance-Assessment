@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Camilo Gale | Portfolio</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body class="home-page">
+    
+    <header class="header">
+        <div class="logo">
+            <h1>Juan Camilo Gale Muñoz</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#Aboutme">About me</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Aboutme">
+            <h2>Software Engineer & Systems Engineer</h2>
+            <p id="about-text">
+                Hello, my full name is Juan Camilo Gale Muñoz. 
+                I am usually curious about my environment. I played basketball for different teams in Bogotá 
+                and Barranquilla
+            </p>
+            <button id="btn-change-about" class="btn-action">View Professional Profile</button>
+        </section>
+
+        <section id="Projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <a href="mascotas.html" class="btn-primary">View Pet Gallery</a>
+                <a href="https://github.com/JuanGale-20" target="_blank" class="btn-primary">My GitHub</a>
+            </div>
+        </section>
+
+        <section id="Contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea rows="5" placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
