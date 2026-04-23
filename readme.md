@@ -34,7 +34,4 @@ Clone the repository and open index.html in your browser.
 🎯 Objective
 
 To showcase my skills as a developer in training and share practical projects.
-
-📬 Contact
-
-You can add your contact information or social media here.
+Juan Gale Muñoz
